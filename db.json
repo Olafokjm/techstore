@@ -1,0 +1,25 @@
+{
+  "productos": [
+    {
+      "nombre": "Excavadora niños",
+      "url": "https://www.alkosto.com/medias/750Wx750H-master-hotfolder-transfer-incoming-deposit-hybris-interfaces-IN-media-product-8853347001641-001.jpg?context=bWFzdGVyfGltYWdlc3wxOTA1OTJ8aW1hZ2UvanBlZ3xoZGUvaGJlLzEzNjQ3MDg3ODYxNzkwLzc1MFd4NzUwSF9tYXN0ZXIvaG90Zm9sZGVyL3RyYW5zZmVyL2luY29taW5nL2RlcG9zaXQvaHlicmlzLWludGVyZmFjZXMvSU4vbWVkaWEvcHJvZHVjdC84ODUzMzQ3MDAxNjQxXzAwMS5qcGd8NGE1MTliZjVmZjk2ZDc2ZjBkNTU2YTczOWFlNzcxMjNjNmM5ZDkwMTNiMWI2YTMzY2NmOTllZWJlOGRlMmEyOQ",
+      "precio": "100000",
+      "descripcion": "Excavadora montable para niños pequeños.",
+      "id": "bac92414-071f-49af-9c55-0afc92da021a"
+    },
+    {
+      "nombre": "Camión de remolque",
+      "url": "https://i.linio.com/p/454c445c42df5188ac91fbcbf78fd71f-product.webp",
+      "precio": "150000",
+      "descripcion": "Camión de carga de juguete a control remoto.",
+      "id": "7329af62-fd77-46d0-86e2-7239885fb8e7"
+    },
+    {
+      "nombre": "Camión super truck",
+      "url": "https://www.alkosto.com/medias/6925300050804-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wxOTkzNjN8aW1hZ2UvanBlZ3xpbWFnZXMvaDU1L2hlOS8xMTQ1NTgxMjA3NTU1MC5qcGd8N2IzZDE1NDE2MjE2NjhhM2RkZDZhOTk4YmEzNDIwNmQ2ODM3ZDhlMzI0N2JmMWQ5N2Q0ZTBiMjk2ZDdjNTcyNg",
+      "precio": "50000",
+      "descripcion": "Camión de 35 cm con varios carritos incluidos.",
+      "id": "5004f15d-0c0f-48ce-addc-6a19ee68d88c"
+    }
+  ]
+}

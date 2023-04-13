@@ -1,0 +1,35 @@
+
+.formulario{
+    width: 50%;
+    margin: 50px auto;
+}
+
+.formulario h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formulario form,
+.registrado{
+    text-align: center;
+    border: 2px var(--color4) solid;
+    border-radius: 10px;
+    padding: 30px 10px;
+    box-shadow: 5px 5px 10px var(--color2);
+}
+
+input, 
+textarea{
+    height: 40px;
+    font-size: 1em;
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 0 8px;
+}
+
+input:focus,
+textarea:focus{
+    border: 2px solid var(--color4);
+    outline: 0;
+    box-shadow: 5px 5px 10px var(--color2);
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/TSlogo.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/inicio.css">
+        <link rel="stylesheet" href="css/botones.css">
+        <link rel="stylesheet" href="css/login.css">
+        <title>Tech Store - Log In</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <nav class="nav-bar">
+                    <h1 class="logo">Tech Store</h1>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="formulario">
+                    <form class="registro" data-formulario >
+                        <h3>Registrarse</h3>
+                        <input type="text" placeholder="Nombre" data-nombre required>
+                        <input type="email" placeholder="correo@dominio.com" data-correo required>
+                        <input type="password" placeholder="Password" data-clave required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" title="Mínimo 8 caracteres, al menos una letra y un número">
+                        <button class="boton boton1">Registrar</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="tittle-bar">
+                    <h1 class="titulo">Contacto</h1>
+                </div>
+                <div class="contacto">
+                    <div class="about">
+                        <a href="">Acerca de nosotros</a>
+                        <a href="">Política de privacidad</a>
+                        <a href="">Pregunta por nuestros planes de pago</a>
+                        <a href="">Ventas al por mayor</a>
+                        <a href="">Trabaje con nosotros</a>
+                        <address>Calle XXX No. XX - XX<br> Cartagena, Colombia</address>
+                    </div>
+                    <div class="email">
+                        <h3>Déjanos un mensaje</h3>
+                        <form>
+                            <input type="text" placeholder="Nombre">
+                            <input type="email" placeholder="Correo">
+                            <textarea name="texto" cols="40" rows="50" placeholder="Escribe tu mensaje"></textarea>
+                            <button type="submit" class="boton boton1">Enviar</button>
+                        </form>
+                    </div> 
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/inicioSesion.js"></script>
+    </body>
+</html>

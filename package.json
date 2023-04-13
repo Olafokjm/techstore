@@ -1,0 +1,12 @@
+{
+    "name": "ecommerce-alurageek",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "server": "json-server --watch db.json"
+    },
+    "keywords": [],
+    "author": "Kevin Julio M.",
+    "license": "ISC"
+  }

@@ -1,0 +1,60 @@
+:root{
+    --color1: #2F2D2E;
+    --color2: #9c9c9c;
+    --color3: #E8F1F2;
+    --color4: #2970CA;
+    --color5: #006494;
+    --color6: #13293D;
+    --color7: #EA2F2F;
+    --color8: #9e1919;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: var(--color1);
+}
+
+header .boton{
+    box-shadow: none;
+}
+
+body{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+.logo{
+    font-family: 'Bungee Inline', cursive;
+    font-size: 3em;
+    color: var(--color3);
+    text-shadow: 5px 5px 10px var(--color7);
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.search{
+    width: 200px;
+    margin: auto 0;
+}

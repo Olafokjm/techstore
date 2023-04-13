@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/TSlogo.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="css/botones.css">
+        <link rel="stylesheet" href="css/inicio.css">
+        <title>Tech Store</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <nav class="nav-bar">
+                    <h1 class="logo">Tech Store</h1>
+                    <div>
+                        <input type="search" class="search" placeholder="¿Qué artículo buscas?">
+                        <a href="login.html" class="boton boton1">Registro</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section id="banner">
+                <div class="container">
+                    <h2 class="promo">Aprovecha nuestros televisores con el 25% de descuento</h2>
+                    <div class="banner-frame">
+                        <img src="img/s1.jpg" alt=""> 
+                    </div>
+                </div>
+            </section>
+
+            <section id="productos">
+                <div class="container">
+                    <div class="tittle-bar">
+                        <h1 class="titulo">Productos</h1>
+                        <a href="registrar.html" class="boton boton1 boton-sm añadir"><b>+</b></a>
+                    </div>
+                    <div class="box" data-box>
+                        <!-- ---------- |CARD MODEL| -----------
+                        <div class="card">
+                            <img src="${url}" alt="${url}">
+                            <h3>${nombre}</h3>
+                            <div class="card-text">
+                                <p class="descripcion">${descripcion}</p>
+                                <p class="precio"><b>Precio: </b>$ ${precio} COP</p>
+                            </div>
+                            <div class="botones">
+                                <a href="edit-producto.html?id=${id}" class="boton boton1"><img src="img/edit.png"></a>
+                                <button type="button" class="boton boton3" id="${id}"><img src="img/delete.png"></button>
+                            </div>
+                        </div>
+                        -->
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <div class="tittle-bar">
+                    <h1 class="titulo">Contacto</h1>
+                </div>
+                <div class="contacto">
+                    <div class="about">
+                        <a href="">Acerca de nosotros</a>
+                        <a href="">Política de privacidad</a>
+                        <a href="">Pregunta por nuestros planes de pago</a>
+                        <a href="">Ventas al por mayor</a>
+                        <a href="">Trabaje con nosotros</a>
+                        <address>Calle XXX No. XX - XX<br> Cartagena, Colombia</address>
+                    </div>
+                    <div class="email">
+                        <h3>Déjanos un mensaje</h3>
+                        <form>
+                            <input type="text" placeholder="Nombre">
+                            <input type="email" placeholder="Correo">
+                            <textarea name="texto" cols="40" rows="50" placeholder="Escribe tu mensaje"></textarea>
+                            <button type="submit" class="boton boton1">Enviar</button>
+                        </form>
+                    </div> 
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/formatoprecio.js" type="module"></script>
+        <script type="module" src="controller/client-controller.js"></script>
+    </body>
+</html>

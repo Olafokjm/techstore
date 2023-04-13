@@ -1,0 +1,41 @@
+.boton{
+    padding: 10px;
+    margin: 5px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 5px 5px 10px var(--color2);
+}
+
+.boton-sm{
+    width: 50px;
+}
+
+.boton1{
+    background-color: var(--color4);
+    color: var(--color3);
+}
+
+.boton2{
+    background-color: var(--color3);
+    color: var(--color1);
+}
+
+.boton3{
+    background-color: var(--color7);
+}
+
+.boton1:hover{
+    background-color: var(--color5);
+}
+
+.boton2:hover{
+    background-color: var(--color2);
+}
+
+.boton3:hover{
+    background-color: var(--color8);
+}
